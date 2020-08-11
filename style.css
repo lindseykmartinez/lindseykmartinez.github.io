@@ -1,2 +1,38 @@
-<style>
-</style>
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-rows: 40px 40px 40px 40px 40px;
+  grid-template-areas: "header header header" "nav nav nav" "aside aside aside" 
+  "sidebar main main" 
+  "footer footer footer";
+  background-color: powderblue;
+  padding: 10px;
+}
+header {
+  grid-area: header;
+  background-color: yellow;
+}
+nav {
+  grid-area: nav;
+  background-color:blueviolet;
+}
+aside {
+  grid-area: aside;
+  background-color:brown;
+}
+main {
+  grid-area: sidebar;
+  background-color: indianred;
+
+}
+footer {
+  grid-area: footer;
+  background-color: indigo;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
