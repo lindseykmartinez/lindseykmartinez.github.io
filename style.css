@@ -8,7 +8,6 @@
     grid-row: 1 / 4;
   }
   #card-2 {
-    grid-column: 1 / 4;
     background-image: url(https://png.pngtree.com/png-clipart/20200225/original/pngtree-cute-ginger-cat-head-png-image_5304599.jpg);
     background-size: cover;
     background-position: center
@@ -28,9 +27,8 @@
 
   }
   #card-5 {
-    background-image: url (https://png.pngtree.com/png-clipart/20191121/original/pngtree-cute-llama-avatar-with-a-yellow-background-png-image_5147719.jpg);
-
-
+    background-image: url(https://images.app.goo.gl/Jm9XhkUj1Q1G2Jrr8);
+    background-size: cover;
   }
   #card-6 {
 
@@ -49,7 +47,4 @@ gap: 1rem;
 grid-auto-rows: 100px;
   font-family: courier
 
-}
-div {
-  background-color: peachpuff;
 }
