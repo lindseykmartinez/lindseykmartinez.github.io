@@ -2,6 +2,47 @@
 <html>
 <head>
   <style>
+
+    header {
+      text-align: center;
+      background-size: cover;
+      color: aliceblue;
+    
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
     div {
   width: 100px;
   height: 100px;
@@ -13,22 +54,32 @@
   from {background-color: red;}
   to {background-color: yellow;}
 </style>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-wdith">
-<title>
-  CSS Grid</title>
   <link href="style.css" rel="stylesheet"type="text/css" />
 </head>
 <body>
-  <div class="grid-container">
-    <div id="card-1" class="card">Cow</div>
-    <div id="card-2" class="card">Cat</div>
-    <div id="card-3" class="card">Pig</div>
-    <div id="card-4" class="card">Dog</div>
-    <div id="card-5" class="card">Llama</div>
-    <div id="card-6" class="card">Goose</div>
-    <div id="card-7" class="card">Hamster</div>
-      </div>
+  <header>
+    <img src="https://images.squarespace-cdn.com/content/v1/57f6bd842e69cf55d8158641/1520541638290-3H0CK0T94UZB70X5AY3I/ke17ZwdGBToddI8pDm48kPBdMQDA3VQMXV7hCKGJupxZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7WZOYOGuexubfahzU3poi_qT1FfbiIqpum3K83_V_HtDq8Dq5tNzDEY7N52ku8JTyw/IJC-Logo.png?format=500w">
+       <h1>Justice for Immigrants in the United States</h1>
+    <ul>
+      <li><a href="#">immigration</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Immigration</h2>
+    <p>explain its history blah blah</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>ice</h2>
+    <p>what they are blah blah</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>rights</h2>
+    <p>blah blah</p>
+    <button>Like</button>
+  </article>
 </body>
 </html>
