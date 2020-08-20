@@ -6,3 +6,25 @@ a.button {
     text-decoration: none;
     color: rebeccapurple;
 }
+.img {
+ color:bisque;
+font-family: Arial Narrow;
+
+}
+.animate {
+  animation: animation 3s infinite ease-in;
+
+}
+@keyframes animation {
+  0% {background-color: cornflowerblue}
+  25% {background-color: skyblue }
+  50% {background-color: cyan }
+  75% {background-color:  deepskyblue}
+  100% {background-color: cornflowerblue}
+}
+.ice {
+
+}
+.knr{
+
+}
