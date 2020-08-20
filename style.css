@@ -1,14 +1,9 @@
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
 
-    text-decoration: none;
-    color: rebeccapurple;
 }
 .img {
  color:bisque;
 font-family: Arial Narrow;
+text-decoration-line: underline;
 
 }
 .animate {
@@ -23,8 +18,24 @@ font-family: Arial Narrow;
   100% {background-color: cornflowerblue}
 }
 .ice {
+  color:bisque;
+font-family: Arial Narrow;
+text-decoration-line: underline;
 
 }
 .knr{
+  color:bisque;
+font-family: Arial Narrow;
+text-decoration-line: underline;
 
+}
+.header {
+background-image: url("https://socialinnovationsjournal.org/images/immigration-banner-image.png");
+text-align: center;
+background-size: cover;
+color:white;
+    
+}
+.text {
+  font-family: Arial Narrow;
 }
